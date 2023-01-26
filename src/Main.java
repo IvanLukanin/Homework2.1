@@ -7,6 +7,7 @@ public class Main {
         task5();
         task6();
         task7();
+        task8();
 }
 public static void task1 () {
     System.out.println("Задача 1");
@@ -85,6 +86,44 @@ public static void task1 () {
 
     public static void task7 () {
         System.out.println("Задача 7");
+        int theWeightOne = 250;
+        int theWeightTwo = 500;
+        int weightOne = 28 * 250;
+        System.out.println(weightOne + " грамм, потеряет за 28 дней");
+        int weightTwo = 14 * 500;
+        System.out.println(weightTwo + " грамм, потеряет за 14 дней");
+        int one = (28 + 14) / 2;
+        System.out.println(one + " день понадобится в среднем, чтобы добиться результата похудения");
+    }
 
+    public static void task8 () {
+        System.out.println("Задача 8");
+        int a = 67760 + 6776;
+        System.out.println(a + " ежемесячная зарплата Маши, повышенная на 10%");
+        int b = 83690 + 8360;
+        System.out.println(b + " ежемесячная зарплата Дениса, повышенная на 10%");
+        int c = 76230 + 7623;
+        System.out.println(c + " ежемесячная зарплата Кристины, повышенная на 10%");
+        int aOne = 67760 * 12;
+        System.out.println(aOne + " годовая зарпата Маши нынешняя");
+        int aTwo = 74536 * 12;
+        System.out.println(aTwo + " годовая зарплата Маши после повышения");
+        int aThree = aTwo - aOne;
+        System.out.println(aThree + " разница между нынешней годовой зарплатой Маши и после повышения");
+        int bOne = 83690 * 12;
+        System.out.println(bOne + " годовая зарплата Дениса нынешняя");
+        int bTwo = 92050 * 12;
+        System.out.println(bTwo + " годовая зарплата Дениса после повышения");
+        int bThree = bTwo - bOne;
+        System.out.println(bThree + " разница между нынешней годовой зарплатой Дениса и после повышения");
+        int cOne = 76230 * 12;
+        System.out.println(cOne + " годовая зарплата Кристины нынешняя");
+        int cTwo = 83853 * 12;
+        System.out.println(cTwo + " годовая зарплата Кристины после повышения");
+        int cThree = cTwo - cOne;
+        System.out.println(cThree + " разница между нынешней годовой зарплатой Кристины и после повышения");
+        System.out.println("Маша теперь получает " + a + " рублей. Годовой доход вырос на " + aThree + " рублей" );
+        System.out.println("Денис теперь получает " + b + " рублей. Годовой доход вырос на " + bThree + " рублей" );
+        System.out.println("Кристина теперь получает " + c + " рублей. Годовой доход вырос на " + cThree + " рублей" );
     }
 }
