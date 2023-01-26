@@ -4,7 +4,7 @@ public class Main {
 }
 public static void task1 () {
     System.out.println("Задача 1");
-    var box = 1;
+    var box = 4;
     System.out.println(box);
     }
 }
