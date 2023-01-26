@@ -6,6 +6,7 @@ public class Main {
         task4();
         task5();
         task6();
+        task7();
 }
 public static void task1 () {
     System.out.println("Задача 1");
@@ -68,6 +69,22 @@ public static void task1 () {
 
     public static void task6 () {
         System.out.println("Задача 6");
+        int banana = 80 * 5;
+        System.out.println(banana + " грамм - вес 5 бананов");
+        int milk = 105 * 2;
+        System.out.println(milk + " грамм - вес 200мл молока");
+        int iceCream = 2 * 100;
+        System.out.println(iceCream + " грамм - вес двух брикетов мороженного");
+        int Eggs = 70 * 4;
+        System.out.println(Eggs + " грамм - вес 4 яиц");
+        int totalWeight = banana + milk + iceCream + Eggs;
+        System.out.println(totalWeight + " грамм спортзавтрака всего");
+        float kilo = totalWeight / 1000f;
+        System.out.println(kilo + " килограмм спортзавтрака всего");
+    }
+
+    public static void task7 () {
+        System.out.println("Задача 7");
 
     }
 }
